@@ -1,0 +1,30 @@
+body{
+    background: rgb(78, 78, 78);
+    background: linear-gradient(350deg, rgb(0, 0, 0) 35%, rgb(86, 85, 99) 100%); 
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    font-family: "Lato", sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}    
+
+p {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+.spacer60{
+    height: 60px;
+    width: 100%;
+}
+.spacer10 {
+    height: 10px;
+    width: 100%;
+}
+  

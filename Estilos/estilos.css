@@ -1,0 +1,194 @@
+
+  /* Inicio Cabecera */
+  .nav{
+    background-color: #000000;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+  }
+  
+  .nav > .contenedor-izq img{
+    width: 200px;
+    }
+  .nav > .contenedor-izq img{
+    width: 150px;
+    height: 100%;
+  }
+
+  .nav > .contenedor-centro{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 500px;
+  }
+  .nav > .contenedor-centro > .explore-text{
+    color:gold;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: .8rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .nav > .contenedor-centro > .explore-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav > .contenedor-centro > .explore-link > .link-bon{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }  
+  .nav > .contenedor-centro > .explore-link > .link-bon a{
+    text-decoration: none;
+    font-family:"Roboto", sans-serif;
+    color: white;
+    font-size: 1.2rem;
+  }  
+  .nav > .contenedor-centro > .explore-link > .spark-bon a{
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    opacity: .7;
+    font-size: 1.2rem;
+  }  
+  .nav > .contenedor-centro > .explore-link > .spark-bon i{
+    padding-left: 10px;
+    font-size: 1.2rem;
+    opacity: .7;
+  } 
+ 
+  .nav > .contenedor-der {
+    display:grid;
+    grid-template-columns: 1fr .2fr 1fr 1fr;
+    justify-content:center;
+    align-items: center;
+    gap: 25px;
+  }
+  .nav > .contenedor-der > .create {
+    background-color:#444857;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+    margin-top: 5px;
+    border-radius: 5px;  
+  } 
+  .nav > .contenedor-der > .create a{
+    text-decoration: none;
+    color: white;
+    font-family:"Roboto", sans-serif;
+    font-weight: 500; 
+  } 
+  .nav > .contenedor-der > .create i{
+    padding-left: 10px;
+    font-size: 1.3rem;
+    color: #45A669;
+  } 
+  .nav > .contenedor-der > .lupa i{
+    font-size: 1.8rem;
+    opacity: 0.7;
+  }
+/* Fin Cabecera */
+
+/* Inicio Contenido*/
+.contenido{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.contenido > .cuerpo{
+    display: flex;
+    justify-content:space-between;
+}
+.contenido > .cuerpo > .cuerpo-texto {
+    margin-left: 50px;
+    margin-right: 50px;
+} 
+.contenido > .cuerpo > .cuerpo-texto > .texto{
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-size: 38px;
+    font-style: normal;
+    color: white;
+    opacity: .7;
+} 
+.contenido > .cuerpo > .cuerpo-texto > .botones{
+    display: flex;
+    gap: 35px;
+}
+.contenido > .cuerpo > .cuerpo-texto > .botones >.lm {
+    background-color:#000000;
+    color: white;
+    padding: 1px 25px;
+    border-radius: 5px; 
+}
+.contenido > .cuerpo > .cuerpo-texto > .botones > .suff {
+    background-color:#4BCE79;
+    color: #000000;
+    padding: 1px 25px;
+    border-radius: 5px; 
+    font-weight: 300;
+}
+.contenido > .cuerpo > .cuerpo-imagen > .cuerpo-imagen-texto{
+    font-size: 27px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.contenido > .cuerpo > .cuerpo-imagen > .cuerpo-imagen-imagen{
+    margin: 0px 0px 0px 0px;
+}
+.contenido > .cuerpo > .cuerpo-imagen > .cuerpo-imagen-imagen img{
+    width: 800px;
+    height: 100%;
+}
+
+#sde{
+    font-weight: 700;
+}
+#cpp{
+    color: #3f9fee;
+}
+/* Fin Contenido*/
+
+/* Inicio Pie*/
+.pie{
+    margin-bottom: 10rem;
+}
+.pie > .navegacion{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content:center;
+    align-items: center;
+    gap: 0px;
+}
+.pie > .navegacion a{
+    background: #1E1F24; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 15px;
+    text-decoration: none;
+    border: 0.5px solid #cbcbcb;
+    font-family:"Roboto", sans-serif;
+    font-weight: 500; 
+    font-size: 1.2rem;
+} 
+.pie > .navegacion a span{
+    color: white;
+    padding-left: 5px;
+    font-family:"Roboto", sans-serif;
+    font-weight: 900; 
+    font-size: 1.5rem;
+} 
+/* Fin Pie*/
+
+
+
